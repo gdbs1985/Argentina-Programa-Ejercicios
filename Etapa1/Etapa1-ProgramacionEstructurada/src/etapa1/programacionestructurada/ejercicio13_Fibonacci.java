@@ -24,21 +24,19 @@ https://quantdare.com/numeros-de-fibonacci/
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
         int n =0;
-        int fibo1 = 1;
-        int fibo2 = 1;
-        int resultado = 0;
+        int b = 1;
+        int c = 1;
+        int a = 0;
         
         System.out.println("Ingrese el valor de n ");
         n  = leer.nextInt();
-        System.out.println(fibo1);
         do
         {   
-            resultado = resultado + fibo2;
-            System.out.println(resultado);//
-            fibo2 = fibo2+fibo1;
-            fibo1 = 
+            System.out.println(c);//
+         
+            
   
-        } while (resultado < n);
+        } while (c < n);
         
     }
 
