@@ -28,5 +28,7 @@ primo o no. Un número es primo cuando es divisible sólo por 1 y por sí mismo,
         }else{
             System.out.println("no es primo");
         }
+        
+        
     }
 }

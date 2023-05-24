@@ -25,7 +25,7 @@ https://quantdare.com/numeros-de-fibonacci/
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
         int n =0;
         int b = 1;
-        int c = 1;
+        int c = 0;
         int a = 0;
         
         System.out.println("Ingrese el valor de n ");
@@ -33,10 +33,12 @@ https://quantdare.com/numeros-de-fibonacci/
         do
         {   
             System.out.println(c);//
-         
-            
+         a = b;//Valor Fibonacci -2---1-0-1-1-2-
+         b = c;//Valor Fibonacci -1---0-1-1-2-3-
+         c = a+b;//Valor Fibonacci----1-1-2-3-5-
+            //                    C-->1-1-2-3-5-
   
-        } while (c < n);
+        } while (c < n); //Mientras C sea menor a n , se va a repetir el codigo.
         
     }
 

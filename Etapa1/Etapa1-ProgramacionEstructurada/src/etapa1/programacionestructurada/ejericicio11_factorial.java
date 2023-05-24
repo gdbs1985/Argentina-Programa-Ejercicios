@@ -21,14 +21,13 @@ hasta el 5. El programa deberá mostrar la siguiente salida:
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
         int n;
         int resultado = 1;
-        int contador = 0;
 
         System.out.println("Ingrese el valor de n");
         n = leer.nextInt();
      
         for (int i = 1; i < n+1; i++)
         {
-            resultado = resultado * i;
+            resultado *= i;
             
         }
         System.out.println("resultado --> " + resultado);
